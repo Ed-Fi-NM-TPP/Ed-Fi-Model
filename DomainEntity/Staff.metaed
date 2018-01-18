@@ -91,3 +91,8 @@ Domain Entity Staff [583]
     domain entity Credential
         documentation "The legal document giving authorization to perform teaching assignment services."
         is optional collection
+
+    // NM TPP Extensions
+    common EvaluationInformation
+      documentation "The data elements that comprise the evaluation for the staff."
+      is optional
